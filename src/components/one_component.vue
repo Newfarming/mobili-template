@@ -1,14 +1,13 @@
 <template>
-  <div>
-    TODO this page...
-  </div>
+  <div>一个组件</div>
 </template>
 
 <script>
   export default {
-    data () {
-      return {
-
+    props: {
+      addressForm: {
+        type: Array,
+        default: () => []
       }
     }
   }
